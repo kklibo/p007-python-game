@@ -36,7 +36,7 @@ with open(f'{docs_dir}/index.html', 'w') as f:
     <div id="info">Use arrow keys to rotate the cube</div>
     <div id="cube-container"></div>
     <div id="footer">
-        <a href="https://github.com/kklibo/3d-cube-spinner" target="_blank">View on GitHub</a>
+        <a href="https://github.com/kklibo/p007-python-game" target="_blank">View on GitHub</a>
     </div>
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>

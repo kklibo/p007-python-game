@@ -4,7 +4,7 @@ A simple web application written in Python (Flask) that displays a 3D cube that 
 
 ## Live Demo
 
-Visit the [GitHub Pages Demo](https://kklibo.github.io/3d-cube-spinner/).
+Visit the [GitHub Pages Demo](https://kklibo.github.io/p007-python-game/).
 
 ## Features
 
@@ -23,8 +23,8 @@ Visit the [GitHub Pages Demo](https://kklibo.github.io/3d-cube-spinner/).
 
 1. Clone this repository:
    ```
-   git clone https://github.com/kklibo/3d-cube-spinner.git
-   cd 3d-cube-spinner
+   git clone https://github.com/kklibo/p007-python-game.git
+   cd p007-python-game
    ```
 
 2. Create a virtual environment (optional but recommended):
@@ -62,7 +62,7 @@ This project is set up to be hosted on GitHub Pages. The static content is serve
    ./init_git.sh
    
    # Then add your remote and push
-   git remote add origin https://github.com/kklibo/3d-cube-spinner.git
+   git remote add origin https://github.com/kklibo/p007-python-game.git
    git branch -M main
    git push -u origin main
    ```
@@ -75,7 +75,7 @@ This project is set up to be hosted on GitHub Pages. The static content is serve
    - Click "Save"
    - Wait a few minutes for GitHub to deploy your site
 
-4. Your site will be available at `https://kklibo.github.io/3d-cube-spinner/`
+4. Your site will be available at `https://kklibo.github.io/p007-python-game/`
 
 ### Troubleshooting GitHub Pages
 
