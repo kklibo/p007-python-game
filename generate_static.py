@@ -39,4 +39,76 @@ with open(f'{docs_dir}/index.html', 'w') as f:
 </body>
 </html>''')
 
+# Create README.md for docs directory
+with open(f'{docs_dir}/README.md', 'w') as f:
+    f.write('''# 3D Cube Spinner
+
+This directory contains the static files for the 3D Cube Spinner project.
+
+The application is a simple 3D cube that can be rotated using arrow keys. It's built with Three.js.
+
+## How to Use
+
+1. Use the arrow keys to rotate the cube
+2. The cube will gradually slow down when keys are released
+
+## Technologies Used
+
+- HTML/CSS
+- JavaScript
+- Three.js''')
+
+# Create 404.html for GitHub Pages
+with open(f'{docs_dir}/404.html', 'w') as f:
+    f.write('''<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Not Found - 3D Cube Spinner</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+        .container {
+            text-align: center;
+            padding: 20px;
+            border-radius: 8px;
+            background-color: white;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+        }
+        h1 {
+            color: #e74c3c;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>404 - Page Not Found</h1>
+        <p>The page you're looking for doesn't exist.</p>
+        <p>Please return to the <a href="index.html">3D Cube Spinner</a>.</p>
+    </div>
+</body>
+</html>''')
+
+# Create .nojekyll file to disable Jekyll processing
+with open(f'{docs_dir}/.nojekyll', 'w') as f:
+    f.write('')
+
 print(f"Static files generated in '{docs_dir}' directory. Ready for GitHub Pages deployment.") 
