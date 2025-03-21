@@ -12,8 +12,8 @@ source venv/bin/activate
 
 # Install requirements
 echo "Installing requirements..."
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 
 # Run the Flask application
 echo "Starting the Flask application..."
-python app.py 
+python3 app.py 
