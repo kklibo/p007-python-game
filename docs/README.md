@@ -1,13 +1,15 @@
-# 3D Cube Spinner
+# 3D Spaceship Game
 
-This directory contains the static files for the 3D Cube Spinner project.
+This directory contains the static files for the 3D Spaceship Game.
 
-The application is a simple 3D cube that can be rotated using arrow keys. It's built with Three.js.
+The application features a 3D spaceship that can be controlled with arrow keys within a circular arena.
 
 ## How to Use
 
-1. Use the arrow keys to rotate the cube
-2. The cube will gradually slow down when keys are released
+- ↑ Arrow Up: Move forward
+- ↓ Arrow Down: Brake/reverse
+- ← Arrow Left: Rotate left
+- → Arrow Right: Rotate right
 
 ## Technologies Used
 

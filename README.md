@@ -1,6 +1,6 @@
-# 3D Cube Spinner
+# 3D Spaceship Game
 
-A simple web application written in Python (Flask) that displays a 3D cube that can be rotated using arrow keys.
+A web application written in Python (Flask) that displays a 3D spaceship in a circular arena that can be controlled using arrow keys.
 
 ## Live Demo
 
@@ -8,9 +8,15 @@ Visit the [GitHub Pages Demo](https://kklibo.github.io/p007-python-game/).
 
 ## Features
 
-- Interactive 3D cube rendered with Three.js
-- Arrow key controls to rotate the cube
-- Smooth animations with friction for realistic physics
+- Interactive 3D spaceship rendered with Three.js
+- Third-person chase camera perspective
+- Circular arena with boundaries
+- Realistic physics with velocity and friction
+- Arrow key controls for spaceship movement:
+  - ↑ Arrow Up: Move forward
+  - ↓ Arrow Down: Brake/reverse
+  - ← Arrow Left: Rotate left
+  - → Arrow Right: Rotate right
 
 ## Local Development
 
